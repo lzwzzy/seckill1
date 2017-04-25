@@ -42,7 +42,7 @@ public class SeckillDaoTest {
 
     @Test
     public void queryAll() throws Exception {
-        List<Seckill> seckills = seckillDao.queryAll(0, 4);
+        List<Seckill> seckills = seckillDao.queryAll(0, 3);
         for (Seckill s :
                 seckills) {
             System.out.println(s);
